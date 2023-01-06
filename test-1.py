@@ -42,7 +42,9 @@ gen = nth_level_markov(
     makeproper(m),
     4
 )
-print(gen(10000))
+x = int(input("How many words: "))
+
+print(gen(x))
 
 # one two three four
 # one two: three
